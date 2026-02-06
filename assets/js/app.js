@@ -42,3 +42,16 @@ setInterval(() => {
     index = (index + 1) % slides.length;
     slides[index].classList.add("active");
 }, 3500);
+
+// GALERI MODAL
+function openModal(img) {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImage");
+
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
