@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Struktur Perusahaan | Nursery Mengkiang</title>
+    <title>Dashboard | Nursery Mengkiang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -14,14 +15,15 @@
     <div class="logo">
         <img src="assets/images/logo.png" class="logo-img">
         <div class="logo-text">
-            <span class="logo-title">Nursery Mengkiang</span>
-            <small>PT. Finnantara Intiga Sanggau</small>
-        </div>
+    <span class="logo-title">Nursery Mengkiang</span>
+    <small>PT. Finnantara Intiga Sanggau</small>
+</div>
+
     </div>
 
     <nav class="menu">
-        <a href="index.html">Dashboard</a>
-        <a href="struktur.html" class="active">Struktur Perusahaan</a>
+        <a href="index.html" class="active">Dashboard</a>
+        <a href="struktur.html">Struktur Perusahaan</a>
         <a href="devisi.html">Devisi</a>
         <a href="galeri.html">Galeri</a>
         <a href="achievement.html">Achievement</a>
@@ -33,50 +35,28 @@
     <div class="topbar">
         <button class="toggle-btn" id="toggleBtn">☰</button>
         <label class="theme-switch">
-            <input type="checkbox" id="themeToggle">
-            <span class="slider-toggle"></span>
-        </label>
+    <input type="checkbox" id="themeToggle">
+    <span class="slider-toggle"></span>
+</label>
+
     </div>
+   <section class="page">
+    <h2>Struktur Perusahaan</h2>
 
-    <section class="page">
-        <h2>Struktur Perusahaan</h2>
+    <p class="struktur-desc">
+        Berikut adalah struktur organisasi Nursery Mengkiang sebagai gambaran
+        susunan manajemen dan divisi kerja perusahaan.
+    </p>
 
-        <!-- ORG CHART -->
-        <div class="org-chart">
-            <!-- HEAD -->
-            <div class="org-card head">
-                <strong>Head Nursery</strong>
-                <span>Rusdiyansyah</span>
-            </div>
+    <div class="struktur-image-wrapper">
+        <img 
+            src="assets/images/struktur.jpg" 
+            alt="Struktur Perusahaan Nursery Mengkiang"
+            class="struktur-image"
+        >
+    </div>
+</section>
 
-            <!-- LEVEL 2 -->
-            <div class="org-row">
-                <div class="org-card">
-                    <strong>Admin</strong>
-                    <span>Yopi Purwadi</span>
-                </div>
-                <div class="org-card">
-                    <strong>Spv. Preparation & Production</strong>
-                    <span>Ahmad Subuh</span>
-                </div>
-                <div class="org-card">
-                    <strong>Spv. Stool Plant</strong>
-                    <span>Fransiskus</span>
-                </div>
-                <div class="org-card">
-                    <strong>Spv. Infrastruktur</strong>
-                    <span>Imamsyah</span>
-                </div>
-                <div class="org-card">
-                    <strong>Spv. Maintenance</strong>
-                    <span>Trimulyo</span>
-                </div>
-                <div class="org-card">
-                    <strong>Spv. QC BST</strong>
-                    <span>-</span>
-                </div>
-            </div>
-        </div>
 
         <!-- DATA PRIBADI ANGGOTA -->
         <div class="member-data">
