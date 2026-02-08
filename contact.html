@@ -34,12 +34,55 @@
         <button class="toggle-btn" id="toggleBtn">☰</button>
     </div>
 
-    <section class="page">
-        <h2>Contact</h2>
-        <p>Contact Nursery Mengkiang</p>
-    </section>
-</main>
+<section class="page contact-page">
+    <h2>Contact Us</h2>
+    <p class="contact-desc">
+        Silakan hubungi Nursery Mengkiang melalui formulir pesan atau WhatsApp.
+        Kami siap menerima masukan, pertanyaan, dan kerja sama.
+    </p>
+
+    <div class="contact-wrapper">
+
+        <!-- FORM EMAIL -->
+        <form class="contact-form animate"
+            action="mailto:imamsyahjr@gmail.com"
+            method="post"
+            enctype="text/plain">
+
+            <h3>Kirim Pesan via Email</h3>
+
+            <label>Nama</label>
+            <input type="text" name="Nama" placeholder="Nama Anda" required>
+
+            <label>Email</label>
+            <input type="email" name="Email" placeholder="email@email.com" required>
+
+            <label>Pesan</label>
+            <textarea name="Pesan" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+
+            <button type="submit">Kirim Email</button>
+        </form>
+
+        <!-- WHATSAPP -->
+        <div class="contact-wa animate">
+            <h3>Hubungi via WhatsApp</h3>
+            <p>
+                Klik tombol di bawah untuk langsung mengirim pesan ke
+                WhatsApp perusahaan.
+            </p>
+
+            <a class="wa-btn"
+               href="https://wa.me/6281257699960?text=Halo%20Nursery%20Mengkiang,%20saya%20ingin%20bertanya."
+               target="_blank">
+                Chat WhatsApp
+            </a>
+        </div>
+
+    </div>
+</section>
+
 
 <script src="assets/js/app.js"></script>
 </body>
 </html>
+
